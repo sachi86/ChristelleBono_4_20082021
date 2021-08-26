@@ -1044,19 +1044,6 @@ h4 {
         height: 320px;
     }
 }
-
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-}
 .form-group {
     margin-bottom: 15px;
 }
@@ -1093,4 +1080,17 @@ em {
     text-align: center;
     margin-bottom:60px;
     color: black;
+}
+@media (max-width: 400px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    
 }
